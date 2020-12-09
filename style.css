@@ -1,0 +1,50 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "Padauk" , sans-serif;
+	background: url(pegas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+	color: #ffc107;
+	font-size: 3rem;
+	font-weight: bold;
+	/*text-transform: uppercase; - because we are using bootstrap we can add a class in HTML like class"text-uppercase"*/
+
+}
+
+hr {
+	border-color: #d16002;
+	border-width: 2px;
+	max-width: 70px;
+}
+
+.buffer {
+	height: 25rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: #d16002;
+	border-color: #d16002; 
+}
+
+.btn-primary:hover {
+	background-color: #473709cf;
+	border-color: #473709cf;
+	border-width: 4px;
+}
